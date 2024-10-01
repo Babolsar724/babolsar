@@ -174,9 +174,32 @@ home-text {
     font-size: 1.6rem;
     font-weight: bold;
 }
-
+.about-texti h2 {
+    text-align: justify;
+    /*font: 0.1rem;*/
+    color: #192f6a;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
 .about-text p {
     text-align: justify;
+    text-justify: inter-word;
+    font-size: 1rem;
+    margin: 1rem 0 1rem;
+    color: #192f6a;
+    font-weight: bold;
+}
+
+.about-texti p {
+    text-align: justify ;
+    text-justify: inter-word;
+    font-size: 1rem;
+    margin: 1rem 0 1rem;
+    color: #192f6a;
+    font-weight: bold;
+}
+.about-texti h3 {
+    text-align: right;
     text-justify: inter-word;
     font-size: 1rem;
     margin: 1rem 0 1rem;
@@ -311,6 +334,11 @@ home-text {
     font-weight: bold;
 }
 
+.properties-container .box  .content .nav-item  a  {
+    font-size: 1.3rem;
+    color: rgb(0, 229, 255);
+    font-weight: bold;
+}
 .properties-container .box .content .icon {
     display: flex;
     align-items: center;
